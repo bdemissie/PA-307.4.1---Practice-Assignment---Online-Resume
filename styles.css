@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #000000;
+  background-color: #9b9898;
+}
+
+.section_1 {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.section23 {
+  display: flex;
+  width: 100%;
+ justify-content: space-evenly;
+}
+
+.section_2 {
+  width: 55%;
+  border: 2px solid #2bd40d;
+  padding: 10px;
+}
+
+.section_3 {
+  width: 35%;
+  border: 2px solid #c50b0b;
+  padding: 10px;
+}
+
+.flex_1 {
+  display: flex;
+  
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  
+}
+
+.info-row {
+  display: flex;  
+  font-size: larger;
+}
+
+.container-headshot {
+  display: flex; 
+  padding: 10px;
+}
+
+.container-headshot img {
+  height: 120px;
+}
+
+.name {
+  margin-left: 20px;
+  margin-right: 10px;
+  
+}
+
+.name h1 {
+    color: white;
+}
+
+.name h5 {
+    color: rgb(12, 12, 229);
+}
+
+.label {
+  font-weight: bold;
+  width: 120px;
+  text-align: right;
+  color: white;
+}
+
+.info {
+  padding-left: 10px;
+  text-align: left;
+  color: rgb(12, 12, 229);
+}
+
+.container-bio {
+  margin: 10px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(12, 12, 229);
+}
